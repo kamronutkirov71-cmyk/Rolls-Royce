@@ -1,0 +1,208 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.banner {
+width: 100%;
+height: 100vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.37)), url(https://i.ytimg.com/vi/LQiy5VUo2Yg/maxresdefault.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.navbar {
+width: 95%;
+display: flex;
+position: relative;
+padding: 36px 0px;
+align-items: center;
+margin: auto;
+justify-content: space-between;
+}
+
+.logo {
+width: 200px;
+cursor: pointer;
+}
+
+li {
+list-style: none;
+display: inline-block;
+margin: 0px 25px;
+position: relative;
+}
+
+li,
+a {
+text-decoration: none;
+color: #fff;
+text-transform: uppercase;
+font-size: 20px;
+transform: scale(1.1);
+transition: all 0.22;
+}
+
+li,
+a:hover {
+color: aqua;
+transform: scale(2.1);
+transition: all 0.22;
+}
+
+.content {
+width: 100%;
+position: absolute;
+top: 50%;
+transform: translateY(50%);
+text-align: center;
+color: #fff;
+}
+
+.content,
+h1 {
+font-size: 60px;
+font-weight: 700;
+margin: 20px;
+}
+
+.content,
+p {
+font-size: 32px;
+font-weight: 100;
+}
+
+#btnlar {
+width: 200px;
+padding: 16px 0;
+margin: 20px 10px;
+font-weight: bold;
+font-style: 20px;
+border-radius: 30px;
+background-color: transparent;
+color: #fff;
+border: 1px solid #fff;
+cursor: pointer;
+transition: all 0.22;
+}
+
+#btnlar:hover {
+border-color: aqua;
+color: aqua;
+border-top-right-radius: 0px;
+border-bottom-left-radius: 0px;
+transform: scale(1.1);
+transition: all 0.22;
+}
+.card-section {
+width: 100%;
+height: 100vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(https://hips.hearstapps.com/hmg-prod/images/2026-rolls-royce-phantom-pr-123-690cd211484fb.jpg?crop=0.553xw:0.554xh;0.106xw,0.344xh&resize=2048:*);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.card {
+width: 450px;
+height: 100vh;
+border: 3px solid #00f0ff;
+background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url();
+transform: scale(1.02);
+transition: all 1.9;
+}
+
+.card-text {
+padding: 10px 24px;
+text-align: center;
+line-height: 2;
+}
+
+.card-text p {
+padding: 10px 24px;
+text-align: center;
+line-height: 2;
+font-size: 22px;
+color: transparent;
+
+}
+
+.card-button {
+width: 100%;
+height: 30%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+
+.card-button button {
+width: 150px;
+padding: 10px 10px;
+background-color: transparent;
+border: 2px solid rgb(41, 75, 112);
+border-radius: 25px;
+color: #fff;
+}
+
+.card-button button:hover {
+border-color: rgb(255, 0, 98);
+color: aqua;
+border-top-right-radius: 0px;
+border-bottom-left-radius: 0px;
+transform: scale(1.1);
+transition: all 0.22;
+}
+
+.card:hover {
+background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url();
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+transform: scale(1.02);
+transition: all 1.9;
+}
+
+.card:hover .card-text p {
+color: #00f0ff;
+transform: scale(1.02);
+transition: all 1.09;
+}
+
+.card h1 {
+font-size: 60px;
+font-weight: 700;
+margin: 20px;
+padding: 10px 24px;
+text-align: center;
+line-height: 2;
+font-size: 22px;
+color: transparent;
+}
+
+.card:hover h1 {
+font-size: 60px;
+font-weight: 700;
+margin: 20px;
+color: #00f0ff;
+}
+.html{
+    color: #fff;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/2026-rolls-royce-phantom-pr-123-690cd211484fb.jpg?crop=0.553xw:0.554xh;0.106xw,0.344xh&resize=2048:*);
+    width: 220vh;
+    height: 100vh;
+}
+.SALOM{
+    background-image: url(https://www.ixbt.com/img/n1/news/2024/9/1/rolls-royce-phantom-goldfinger_large.png);
+    color: #fff;
+    width: 220vh;
+    height: 100vh;
+}
+    .Honor{
+        background-image: url(https://static.euronews.com/articles/380357/1200x675_380357.jpg);
+        color: #fff;
+          width: 220vh;
+    height: 100vh;
+    }
